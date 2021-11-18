@@ -1,4 +1,7 @@
-def hello():
-    print("Hello from function town")
+tafelnummer = int(input("Van welk getal wilt u de tafel zien?"))
 
-hello()
+def tafel(tafel):
+    for i in range(11):
+        print(tafel * i)
+
+tafel(tafelnummer)
